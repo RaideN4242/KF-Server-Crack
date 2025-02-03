@@ -1,5 +1,5 @@
 # KF-Server-Crack (Windows + Linux)
-Full actual server crack + autostart with logs
+Full actual server crack + autorestart with logs
 
 Don't forget to open all steam ports.
 
