@@ -12,6 +12,10 @@ The following list of default ports need to be open for a server to run successf
     8075 TCP/IP (Port set via ListenPort that your WebAdmin will run on)
     20560 UDP/IP (Steam Port)
 
+    Since the game is running with the Steam backend, if you are running more than 1 server per IP, you will need to make sure that you have some additional ports open beyond the default KF ports. If you change the default Game Port from 7707, this change will be reflected in the Master Server Port (28852) and the Steam Port (20560) as well.
+
+You must also change OldQueryPortNumber=7717 under [IpDrv.UdpGamespyQuery] in the KillingFloor.ini to match the increase of the 7707 port. So if you change 7707 to 7807, then 7717 would change to 7817. If this is not done, the server will crash when starting. 
+
 
 Если у Вас нестандартный порт (7707), а например 9507, то необходимо изменить 2 стимовских порта по следующей формуле:
 
