@@ -1,7 +1,7 @@
 # KF-Server-Crack (Windows + Linux)
 Full actual server crack + autorestart with logs
 
-Don't forget to open all steam ports.
+Don't forget to open all Steam ports.
 
 The following list of default ports need to be open for a server to run successfully:
 
@@ -14,3 +14,5 @@ The following list of default ports need to be open for a server to run successf
 
 
 ![изображение](https://github.com/user-attachments/assets/8b82206c-3152-4aaf-900a-2ccad06f15dd)
+
+![изображение](https://github.com/user-attachments/assets/d6a61fbf-0a28-49b7-877d-791a1119e0dc)
