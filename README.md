@@ -3,8 +3,6 @@ Full actual server crack + autostart with logs
 
 Don't forget to open all steam ports.
 
-Server ports
-
 The following list of ports need to be open for a server to run successfully:
 
     7707 UDP/IP (Game Port)
