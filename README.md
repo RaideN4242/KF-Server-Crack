@@ -5,12 +5,12 @@ Don't forget to open all Steam ports.
 
 The following list of default ports need to be open for a server to run successfully:
 
-    7707 UDP/IP (Game Port)
-    7708 UDP/IP (Query Port)
-    7717 UDP/IP (Steam Query Port)
-    28852 TCP/IP and UDP (Allows your Server to Connect to the Master Server Browser)
-    8075 TCP/IP (Port set via ListenPort that your WebAdmin will run on)
-    20560 UDP/IP (Steam Port)
+    7707 UDP/IP (Game Port) - для подключения в игре.
+    7708 UDP/IP (Query Port) - для отображения инфо о сервере в игре.
+    7717 UDP/IP (Steam Query Port).
+    28852 TCP/IP and UDP (Allows your Server to Connect to the Master Server Browser).
+    8075 TCP/IP (Port set via ListenPort that your WebAdmin will run on).
+    20560 UDP/IP (Steam Port).
 
 Since the game is running with the Steam backend, if you are running more than 1 server per IP, you will need to make sure that you have some additional ports open beyond the default KF ports. If you change the default Game Port from 7707, this change will be reflected in the Master Server Port (28852) and the Steam Port (20560) as well.
 
@@ -23,6 +23,8 @@ You must also change OldQueryPortNumber=7717 under [IpDrv.UdpGamespyQuery] in th
 21145 + 9507 = 30652
 
 Далее аналогично с портом 20560
+
+Для Steam Query Port прибавляем +10 к основному порту. То есть 9507 + 10 = 9517. Это и будет Steam Query Port.
 
 ![изображение](https://github.com/user-attachments/assets/8b82206c-3152-4aaf-900a-2ccad06f15dd)
 
