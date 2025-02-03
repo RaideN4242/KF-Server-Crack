@@ -26,7 +26,7 @@ You must also change OldQueryPortNumber=7717 under [IpDrv.UdpGamespyQuery] in th
 
 Для Steam Query Port прибавляем +10 к основному порту. То есть 9507 + 10 = 9517. Это и будет Steam Query Port.
 
-Для отображения инфо о сервере после смены порты прибавляем +1 к основному порту. То есть 9507 + 1 + 9508
+Для отображения инфо о сервере после смены порта прибавляем +1 к основному порту. То есть 9507 + 1 + 9508
 
 ![изображение](https://github.com/user-attachments/assets/8b82206c-3152-4aaf-900a-2ccad06f15dd)
 
