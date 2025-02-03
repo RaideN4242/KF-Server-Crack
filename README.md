@@ -11,3 +11,6 @@ The following list of default ports need to be open for a server to run successf
     28852 TCP/IP and UDP (Allows your Server to Connect to the Master Server Browser)
     8075 TCP/IP (Port set via ListenPort that your WebAdmin will run on)
     20560 UDP/IP (Steam Port)
+
+
+![изображение](https://github.com/user-attachments/assets/8b82206c-3152-4aaf-900a-2ccad06f15dd)
